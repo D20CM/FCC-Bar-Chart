@@ -81,7 +81,7 @@ let scott = function() {
         .style("position", "absolute")
         .style("z-index", "10")
         .style("visibility", "hidden")
-        .style("background", "grey")
+        .style("background", "white")
         .text("a simple tooltip");
     
     let datesArr = dataset.data.map( (item) => { return new Date(item[0])});
